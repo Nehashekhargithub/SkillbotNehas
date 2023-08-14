@@ -1,0 +1,23 @@
+Fast.lib and Vim Text Editor: Fast.lib initiates the Vim text editor, a widely used command-line text editor.
+45nm Data Sheets: It displaying 45 nanometers (nm) data sheet containing lakhs of lines.
+Library 'gpdk045wc': This library stands for Generic Physical Design Kit (GPDK) tailored for 45nm process technology with a focus on worst-case scenarios, providing design components and specifications.
+The Design specifics the essential parameters like; Time unit-1 nanosecond (ns), Voltage unit 1 milliampere (1mA), and Capture Load unit: 1 picofarad (1pF).
+A minimum power supply of 1.32 volts (V) is required to ensure proper functioning of the designed circuit.
+The design should operate at the 0 degrees Celsius (°C) Temperature.
+Threshold Values: After the Temperature they had given some Threshold values.
+Delays Analysis using 7x7 Matrix: A 7x7 matrix is employed to analyze and understand the delays in the circuit's components, helping optimize its performance.
+Cell 'ADDFHX2':This cell is part of the design and has a leakage power of 1.09891. Leakage power refers to the power consumed even when the circuit is idle.
+Here A,B and CI is taken as an Input pins.
+The S and CO are taken the output pin.
+Where CO pin is taken as carry Output.
+The S pin is taken as SUM Output.
+Where CO pin functions to "(((A.B)+(B.CI))+( CI.A))".
+S Pin which functions to " ((A^B)^CI)".
+The 'Co' output computes a multi-level function that involves logical operations like AND, OR, and XOR between input signals A, B, and CI.
+Pin S output that performs a logical operation on the inputs A, B, and CI, implementing the XOR operation.
+By analyzing threshold values and delays using the matrix, designers can optimize the circuit for efficiency and reliability.
+Basically This Overall datasheet perform several operations like (CLKAND, CLKOR, CLKXOR, CLKINV, CLKBUF).
+And even it also uses FLIPFLOPS to perform some functions.
+
+
+
