@@ -1,0 +1,11 @@
+set arr1 {{2 4 6} {3 5 7} {8 1 9}}
+set arr2 {{4 6 3} {7 3 5} {9 8 1}}
+foreach a $arr1 b $arr2 {
+    foreach c $a d $b {
+        set sum [expr $c * $d]
+        lappend z $sum
+    }
+    lappend y $z
+    unset z
+}  
+puts $y
